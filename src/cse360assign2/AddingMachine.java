@@ -22,7 +22,7 @@ public class AddingMachine {
 	 * @param transaction
 	 */
 	public AddingMachine () {
-		total = 0;  // not needed - included for clarity
+		total = 0 ;  // not needed - included for clarity
 		transaction = "";
 	}
 	/**
@@ -38,9 +38,9 @@ public class AddingMachine {
 	 */
 	public void add (int value) 
 	{
-		if(total==0)transaction+=total;
-		transaction+=" + " + value;			//adds the passed value to the transaction string along with the plus symbol
-		total+=value;						//adds the passed value to the total
+		if ( total == 0 ) transaction += total;
+		transaction += " + " + value;			//adds the passed value to the transaction string along with the plus symbol
+		total += value;						//adds the passed value to the total
 	}
 	/**
 	 * Method that subtracts the value passed to the current total as well as update the transaction String
@@ -48,9 +48,9 @@ public class AddingMachine {
 	 */
 	public void subtract (int value)
 	{
-		if(total==0)transaction+=total;
-		transaction+=" - " + value;			//adds the passed value to the transaction string along with the minus symbol						
-		total-=value;						//subtracts the passed value to the total
+		if ( total == 0 ) transaction += total;
+		transaction += " - " + value;			//adds the passed value to the transaction string along with the minus symbol						
+		total -= value;						//subtracts the passed value to the total
 	}
 	/**
 	 * Method that returns the string transaction at that time 
@@ -66,7 +66,7 @@ public class AddingMachine {
 	 */
 	public void clear()
 	{										//resets the total variable to 0 and the transaction variable to ""
-		total=0;
-		transaction="";
+		total = 0;
+		transaction = "";
 	}
 }
