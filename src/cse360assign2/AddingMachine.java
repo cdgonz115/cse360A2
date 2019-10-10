@@ -2,7 +2,7 @@ package cse360assign2;
 /**
  * 
  * @author Christian Gonzalez
- *
+ *	class ID (85141)
  */
 /**
  * Object that is used as a calculator for addition and subtraction
